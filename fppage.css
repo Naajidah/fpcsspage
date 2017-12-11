@@ -1,0 +1,72 @@
+<style>
+.pagesetup{
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; 
+font-size:1rem; 
+padding-left: 5%; 
+padding-right: 5%; 
+left: 0%; 
+height:100%;
+}
+
+@media (min-width: 500px) and (max-width: 50000px) {
+  #appliesto {
+  display:none;
+  }
+
+  .video {
+  width: 700px; 
+  height: 395px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+
+.video {
+  width: 375px; 
+  height: 211px;
+  }
+
+ #hidemobile {
+    display: none; 
+  }
+
+ #accordianhouse {
+    display: none;
+  }
+
+ .phoneimage {
+    width: 60%;
+  }
+
+p img {
+    width: 100%;
+  }
+
+}
+
+
+#rn_AnswerFeedback_5_AnswerFeedbackControl {
+padding-left: 5%;
+}
+
+#rn_AnswerFeedback_6_AnswerFeedbackControl {
+padding-left: 5%;
+}
+
+
+.rn_RelatedAnswers {
+padding-left: 5%; 
+}
+
+.rn_AnswerDetail h1 {
+  font-size: 2.5rem;
+ padding-left: 5%;
+}
+
+.rn_FeaturedCategoryList h2 {
+  font-size: 2.5rem;
+ padding-left: 5%;
+ margin-top: 20px; 
+ margin-bottom: 30px; 
+}
+</style>
