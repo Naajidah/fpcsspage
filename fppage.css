@@ -7,6 +7,18 @@ left: 0%;
 height:100%;
 }
 
+#rn_PageTitle {
+padding-left: 5%;
+}
+
+#rn_PageTitle.rn_AnswerDetail{
+border:none;
+}
+
+#rn_Summary, #rn_AnswerInfo {
+padding-left: 5%; 
+}
+
 .rn_MasterHeader header {
 background-color:white; 
 top:0%; 
