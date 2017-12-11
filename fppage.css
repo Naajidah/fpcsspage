@@ -7,6 +7,18 @@ left: 0%;
 height:100%;
 }
 
+.rn_MasterHeader header {
+background-color:white; 
+top:0%; 
+position: fixed; 
+width: 100%;  
+}
+
+body {
+padding-top:60px; 
+}
+
+
 @media (min-width: 500px) and (max-width: 50000px) {
   #appliesto {
   display:none;
@@ -19,7 +31,11 @@ height:100%;
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
-
+  
+.pagesetup{
+  margin-top: 50px;
+  }
+  
 .video {
   width: 375px; 
   height: 211px;
